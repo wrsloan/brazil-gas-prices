@@ -22,4 +22,18 @@ brazil_gdp.csv and china_gdp.csv were gathered from FRED as well.
 (international) sugar_prices.csv and PBR.csv (Petrobras stock prices) were obtained from Macrotrends and
 Yahoo! Finance, respectively.  Petrobras is Brazil's largest petroleum producing firm.
 
-
+### Required Packages
+tidyverse
+gridExtra
+viridis
+lubridate
+date
+scales
+data.table
+fastDummies
+caret
+glmnet
+tools
+knitr
+DT
+shiny
