@@ -6,7 +6,7 @@ First, I construct an interactive exploratory data analysis highlighting region-
 price discrepancies using R Shiny.
 
 Following this, I model fuel prices using a bootstrapped linear regression in addition to a generalized
-linear model using maximum penalized likelihood (via glmnet package).
+linear model with maximum penalized likelihood (via glmnet package).
 
 Note bgp_analysis.Rmd may take a few minutes to run.
 
