@@ -19,7 +19,7 @@ brent_prices.csv and wti_prices.csv are international oil prices, and were gathe
 
 brazil_gdp.csv and china_gdp.csv were gathered from FRED as well.
 
-(international) sugar_prices.csv and Petrobras stock prices were obtained from Macrotrends and
+(international) sugar_prices.csv and PBR.csv (Petrobras stock prices) were obtained from Macrotrends and
 Yahoo! Finance, respectively.  Petrobras is Brazil's largest petroleum producing firm.
 
 
