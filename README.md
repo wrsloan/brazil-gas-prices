@@ -21,6 +21,8 @@ brazil_gdp.csv and china_gdp.csv were gathered from FRED as well.
 Yahoo! Finance, respectively.  Petrobras is Brazil's largest petroleum producing firm.
 
 ### Remaining Files
-The remaining files separate the code used in bgp_analysis.Rmd by functionality.
+The following files separate the code used in bgp_analysis.Rmd by functionality.
 
-In bgp_wrangling.R, I import, clean, and merge the datasets.  bgp_plotFunc.R includes the three plotting functions I created to visualize price dynamics, also being utilized in the interactive portion of the project.  bgp_Shiny.R specifies the input and output objects created for the interactive portion, separated by corresponding section.  bgp_DTs.R includes the data tables used in examining state-specific price fluctuations.  These tables correspond to the three sections analyzed in the exploratory data analysis.  Lastly, bgp_model provides the code used in creating both models and assessing their relative accuracy. 
+In bgp_wrangling.R, I import, clean, and merge the datasets.  bgp_plotFunc.R includes the three plotting functions I created to visualize price dynamics, also being utilized in the interactive portion of the project.  bgp_Shiny.R specifies the input and output objects created for the interactive portion, separated by corresponding section.  bgp_DTs.R includes the data tables used in examining state-specific price fluctuations.  These tables correspond to the three sections analyzed in the exploratory data analysis.  Lastly, bgp_model provides the code used in creating both models and assessing their relative accuracy.
+
+server.R and ui.R are still being modified.  I am in the process of making this report available as a Shiny App to allow for better accessibility.  Users will then be able to run the report through one R command, being, `shiny::runGitHub('brazil-gas-prices, wrsloan)`.
