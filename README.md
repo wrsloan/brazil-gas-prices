@@ -6,7 +6,7 @@ First, I construct an interactive exploratory data analysis highlighting fuel, r
 R is required to run the code in bgp_analysis.Rmd.  First, install the required packages as listed below.  The file is in R Markdown format, but uses R Shiny to include interactive features.  Next, download the primary and secondary datasets, in addition to bgp_analysis.Rmd.  Ensure the files are located in the same directory, with R set to this directory.  Lastly, open bgp_analysis.Rmd in R and run the document.  Note runtime may take a few minutes.
 
 ### Required Packages
-tidyverse, gridExtra, viridis, lubridate, date, scales, data.table, fastDummies
+tidyverse, gridExtra, viridis, lubridate, date, scales, data.table, fastDummies,
 caret, glmnet, tools, knitr, DT, shiny
 
 ### Primary Dataset
