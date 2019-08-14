@@ -13,7 +13,7 @@ caret, glmnet, tools, knitr, DT, shiny
 brazil_gas_prices.tsv is the primary dataset used, and is provided by The National Agency of Petroleum, Natural Gas, and Bio Fuels (ANP).
 
 ### Price Modeling: Secondary Datasets
-brent_prices.csv and wti_prices.csv are international oil prices, and were gathered from FRED.
+brent_prices.csv and wti_prices.csv are two separate measures of oil prices, and were gathered from FRED.
 
 brazil_gdp.csv and china_gdp.csv were gathered from FRED as well.
 
